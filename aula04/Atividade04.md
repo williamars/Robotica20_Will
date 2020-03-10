@@ -7,7 +7,8 @@ Atenção: o grupo de 3 pessoas desta atividade deve se manter fixo até a entre
 Deadline: **19/3**
 
 Referências:
-Cap. 7 do ROS Robot Programming
+[Cap. 7 do ROS Robot Programming](http://community.robotsource.org/t/download-the-ros-robot-programming-book-for-free/51)
+
 
 
 
