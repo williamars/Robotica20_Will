@@ -40,14 +40,14 @@ Se tudo ocorrer bem, deve aparecer a mensagem *RAW host disk access VMDK file VM
  
 Abra o Windowns PowerShell. Dica, precione a tecla win e digite *Powershell*:
 
-Execute o comando:
+Execute os comandos:
     
     diskpart
     list disk 
 
 ![referencia](img/win_vm_4.png)
 
-Verifique o numero do disco, *Disco 2* ou *Disco 1*, e digite o comando substituindo o **N** no final do comando pelo número de disco corresponde:
+Verifique o número do disco, *Disco 2* ou *Disco 1*, e digite os comandos e substitua o **N** no final do primeiro comando, pelo número de disco corresponde, no segundo comando não é necessário adicionar o numero do disco:
 
     select disk N
     offline disk
