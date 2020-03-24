@@ -33,7 +33,10 @@ Se tudo ocorreu bem, agora o nosso turtlebot esta realizado a segmentação de c
     
 ## Video do guia
 Fiquei com duvida no guia, acompanha o video.
+
 https://www.youtube.com/watch?v=OKphJFyhnSg&feature=youtu.be
 
+
 Se der alguma coisa errada, consulte esses guia de sobrevivência ROS Gazebo
+
 https://www.youtube.com/playlist?list=PLM8rZg4fCalht-rexa91MO1y3jxm9mwOa
