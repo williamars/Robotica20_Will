@@ -37,7 +37,9 @@ Se tudo ocorrer bem, deve aparecer a mensagem *RAW host disk access VMDK file VM
  **SSD COM NUMERAÇÃO DO TIPO *A*, OU SEJA, 0*A*x... são SSD's com formato *MBR*, pular ETAPA 2**.
  
  **SSD COM NUMERAÇÃO DO TIPO *B*, OU SEJA, 0*B*x... SÃO SSD's com formato *GPT*, siga as instruções da ETAPA 2 abaixo**
- 
+
+## Windowns
+
 Abra o Windowns PowerShell. Dica, precione a tecla win e digite *Powershell*:
 
 Execute os comandos:
@@ -47,7 +49,7 @@ Execute os comandos:
 
 ![referencia](img/win_vm_4.png)
 
-Verifique o número do disco, *Disco 2* ou *Disco 1*, e digite os comandos e substitua o **N** no final do primeiro comando, pelo número de disco corresponde, no segundo comando não é necessário adicionar o numero do disco:
+Verifique o número do disco, *Disco 2* ou *Disco 1*, e digite os comandos e substitua o **N** no final do primeiro comando, pelo número de disco corresponde, no segundo comando não adicionar o numero do disco:
 
     select disk N
     offline disk
@@ -55,6 +57,22 @@ Verifique o número do disco, *Disco 2* ou *Disco 1*, e digite os comandos e sub
 Se tudo ocorreu corretamente, irá aparecer no terminal a mensagem *O DiskPart colocou o disco selecionado offline com êxito*. Feche o PowerShell e siga para a proxima etapa.
 
 ![referencia](img/win_vm_5.png)
+
+## MacOS
+
+Abra o terminal do Mac:
+
+Execute os comandos:
+    
+    diskutil list
+    
+Entre os drives listados, conseguimos saber qual o é o nosso SSD pelo tamanho 111GB e porque terá alguma partição com a descrição Linux Filesystem. No caso o drive será /dev/disk**N**, onde **N** é o numero de disco correspondente.
+
+Execute o comando:
+    
+    diskutil unmountDisk /dev/diskN
+    
+Se tudo ocorreu bem, irá aparecer no terminal a mensagem *Unmount of all volumes on disk**N** was sucessful*. Feche o terminal e siga para a proxima etapa.
 
 ## ETAPA 3
 
