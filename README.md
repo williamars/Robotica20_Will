@@ -31,3 +31,9 @@ Abra um novo terminal (Crtl+Alt+t) e execute o rosrun para renomear o topico da 
     
 Se tudo ocorreu bem, agora o nosso turtlebot esta realizado a segmentação de cor e detectando a caixa vermelho em nosso mundo simulado.
     
+## Video do guia
+Fiquei com duvida no guia, acompanha o video.
+https://www.youtube.com/watch?v=OKphJFyhnSg&feature=youtu.be
+
+Se der alguma coisa errada, consulte esses guia de sobrevivência ROS Gazebo
+https://www.youtube.com/playlist?list=PLM8rZg4fCalht-rexa91MO1y3jxm9mwOa
