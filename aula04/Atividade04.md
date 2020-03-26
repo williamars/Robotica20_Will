@@ -77,8 +77,6 @@ E em outro terminal
 
 ##  O que é para fazer
 
-![](creepers.jpg)
-
 Modique este programa para que o robô centralize num creeper **azul** ou **verde**.
 
 Depois de centralizar, usando a informação do *laser* (tópico `\scan`) faça o robô se aproximar do *creeper* e para a $15cm$ dele *ou* tocá-lo gentilmente.  Isso vai ser base para depois incluirmos o comando da garra do robô. 
