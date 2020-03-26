@@ -61,14 +61,6 @@ Estude o código de `cor.py`, que está em `robot20/ros/exemplos_python/scripts`
 Lembre-se de que você vai precisar estar conectado a algum robô simulado para poder testar, como o [my simulation ](https://github.com/.arnaldojr/my_simulation).
 
 
-
-
-
-
-Rode num terminal o comando para que o tópico de câmera tenha um repetidor (relay) chamado `/kamera`
-
-    rosrun topic_tools relay  /camera/rgb/image_raw/compressed /kamera
-
 E em outro terminal
 
     rosrun exemplos_python cor.py
